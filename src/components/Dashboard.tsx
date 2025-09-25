@@ -71,9 +71,14 @@ const Dashboard = ({ onStartTest }: { onStartTest: (testType: string) => void })
             <h1 className="text-3xl font-bold font-heading text-foreground">Athlete Dashboard</h1>
             <p className="text-muted-foreground">Track your progress and complete assessments</p>
           </div>
-          <Badge className="bg-gradient-success text-success-foreground animate-scale-in">
-            Assessment Ready
-          </Badge>
+          <div className="flex items-center space-x-2">
+            <Badge className="bg-gradient-success text-success-foreground animate-scale-in">
+              Assessment Ready
+            </Badge>
+            <a href="/" className="ml-2">
+              <Button variant="outline">Go to Home</Button>
+            </a>
+          </div>
         </div>
 
         {/* Stats Overview */}

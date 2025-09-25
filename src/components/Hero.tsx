@@ -38,7 +38,7 @@ const Hero = ({ onGetStarted }: { onGetStarted: () => void }) => {
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <Trophy className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground">SportsTalent.AI</span>
+              <span className="text-xl font-bold text-foreground">AthleteX</span>
           </div>
           <Badge variant="secondary" className="bg-gradient-secondary">
             Sports Authority of India
